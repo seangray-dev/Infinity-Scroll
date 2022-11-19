@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    min-height: 100vh;
+    font-size: 1rem;
+    font-family: 'Secular One', sans-serif;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+/* Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: hsla(0, 0%, 96%, 0.8);
+}
+
+
+.loader img {
+    position: fixed;
+    top: 50%; 
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+
+.image-container {
+    margin:  0.625rem 25%;
+}
+
+/* Media Queries  */
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .image-container {
+        margin:  0.625rem;
+    }
+
+}
